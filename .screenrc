@@ -1,0 +1,15 @@
+startup_message off
+defscrollback 100000
+hardstatus alwayslastline '%{= kg}[ %{b}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f %t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{b} %d-%m %{W}%c %{g}]'
+screen -t bash 0
+screen -t bash 1
+screen -t bash 2
+screen -t bash 3
+screen -t bash 4
+screen -t bash 5
+screen -t bash 6
+screen -t bash 7
+screen -t bash 8
+screen -t bash 9
+altscreen on
+termcapinfo xterm-color|xterm|xterms|xs|rxvt ti@:te@
